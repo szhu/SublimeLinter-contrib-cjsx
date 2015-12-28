@@ -8,17 +8,17 @@
 # License: MIT
 #
 
-"""This module exports the Coffee plugin class."""
+"""This module exports the Cjsx plugin class."""
 
 from SublimeLinter.lint import Linter, util
 
 
-class Coffee(Linter):
+class Cjsx(Linter):
 
     """Provides an interface to coffee --compile."""
 
-    syntax = 'coffeescript'
-    cmd = 'coffee --compile --stdio'
+    syntax = 'cjsx'
+    cmd = 'cjsx --compile --stdio'
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 1.5'
