@@ -28,13 +28,13 @@ In order for `cjsx` to be executed by SublimeLinter, you must ensure that its pa
 Once `cjsx` is installed and configured, you can proceed to install the SublimeLinter-coffee plugin if it is not yet installed.
 
 ### Plugin installation
-Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
+Please use [Package Decontrol](https://github.com/jfromaniello/Sublime-Package-Decontrol) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
 
-To install via Package Control, do the following:
+To install via Package Decontrol, do the following:
 
-1. Within Sublime Text, bring up the [Command Palette](http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html) and type `install`. Among the commands you should see `Package Control: Install Package`. If that command is not highlighted, use the keyboard or mouse to select it. There will be a pause of a few seconds while Package Control fetches the list of available plugins.
+1. Within Sublime Text, bring up the [Command Palette](http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html) and type `install`. Among the commands you should see `Package Decontrol: Install from Github`. If that command is not highlighted, use the keyboard or mouse to select it.
 
-1. When the plugin list appears, type `cjsx`. Among the entries you should see `SublimeLinter-coffee`. If that entry is not highlighted, use the keyboard or mouse to select it.
+2. Type `szhu/SublimeLinter-contrib-cjsx` and press Enter.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings](http://sublimelinter.readthedocs.org/en/latest/settings.html). For information on generic linter settings, please see [Linter Settings](http://sublimelinter.readthedocs.org/en/latest/linter_settings.html).
